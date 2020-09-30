@@ -22,12 +22,16 @@ public class Bubblesort {
 				
 		bubbleSort(a);
 		System.out.println("Filtered array: " + java.util.Arrays.toString(filter(a)) + "\n");
+		
 		bubbleSort(b);		
 		System.out.println("Filtered array: " + java.util.Arrays.toString(filter(b)) + "\n");
+		
 		bubbleSort(c);		
 		System.out.println("Filtered array: " + java.util.Arrays.toString(filter(c)) + "\n");
+		
 		bubbleSort(d);			
-		System.out.println("Filtered array: " + java.util.Arrays.toString(filter(d)) + "\n");	
+		System.out.println("Filtered array: " + java.util.Arrays.toString(filter(d)) + "\n");
+		
 		bubbleSort(e);		
 		System.out.println("Filtered array: " + java.util.Arrays.toString(filter(e)) + "\n");
 		
@@ -37,7 +41,8 @@ public class Bubblesort {
 	
 	/*
 	 * Sorts the array that is located at the position to which 
-	 * the passed reference points. Prints both, the initial
+	 * the passed reference points. Prints the array before and
+	 * after sorting the contained elements.
 	 * 
 	 * */
 	
@@ -50,7 +55,6 @@ public class Bubblesort {
 			return;
 			
 		}
-		
 
 		System.out.println("Input array:    " + java.util.Arrays.toString(ar));
 		

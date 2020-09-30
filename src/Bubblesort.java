@@ -35,6 +35,11 @@ public class Bubblesort {
 
 	}
 	
+	/*
+	 * Sorts the array that is located at the position to which 
+	 * the passed reference points. Prints both, the initial
+	 * 
+	 * */
 	
 	public static void bubbleSort(int[] ar) {
 		
@@ -46,18 +51,8 @@ public class Bubblesort {
 			
 		}
 		
-		/* 
-		 * Copy input array for later printing.
-		 * 
-		 * */
-		
-		int[] inputArray = new int[ar.length];
-		
-		for(int j = 0; j < ar.length; j++) {
-			
-			inputArray[j] = ar[j];
-			
-		}
+
+		System.out.println("Input array:    " + java.util.Arrays.toString(ar));
 		
 		/* 
 		 * Actual BubbleSort algorithm.
@@ -83,7 +78,6 @@ public class Bubblesort {
 			
 		}
 		
-		System.out.println("Input array:    " + java.util.Arrays.toString(inputArray));
 		System.out.println("Sorted array:   " + java.util.Arrays.toString(ar));
 		
 	}

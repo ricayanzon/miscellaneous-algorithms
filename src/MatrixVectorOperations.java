@@ -107,9 +107,9 @@ public class MatrixVectorOperations {
 	
 	
 	/***********
-	 * 		   *
+	 *         *
 	 *  TESTS  *
-	 * 		   *
+	 *         *
 	 ***********/
 	
 	
